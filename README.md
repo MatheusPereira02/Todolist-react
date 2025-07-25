@@ -26,9 +26,7 @@ Aplicativo simples de lista de tarefas desenvolvido em React. Permite adicionar,
 
 ---
 
-## Como rodar localmente
+## 📸 Captura de Tela
 
-1. Clone o repositório:
+![Pagina Inicial ToDoList](https://i.imgur.com/QJNXriV.png)
 
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
