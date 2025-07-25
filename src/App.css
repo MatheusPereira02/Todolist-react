@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  padding: 30px;
+  color: #333;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.app {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ffffffcc;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #333974;
+  font-weight: 700;
+}
+
+h2 {
+  margin-bottom: 12px;
+  color: #444;
+}
+
+.todo-form {
+  margin-top: 30px;
+}
+
+input,
+select {
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 16px;
+}
+
+button {
+  background-color: #333974;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: #22255a;
+}
+
+.todo-list {
+  margin-top: 20px;
+}
+
+.todo {
+  background-color: #fff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s;
+}
+
+.todo:hover {
+  transform: translateY(-3px);
+}
+
+.todo.completed {
+  background-color: #e2f8e9;
+  text-decoration: line-through;
+  opacity: 0.8;
+}
+
+.complete {
+  background-color: #28a745;
+}
+
+.remove {
+  background-color: #dc3545;
+}
+
+.actions button {
+  margin-left: 10px;
+}
+
+.content p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.categoria {
+  font-size: 14px;
+  color: #777;
+  margin-top: 4px;
+}
+
+.filter,
+.search {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.search input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.filter-options {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.filter-options div {
+  flex: 1 1 45%;
+}
+
+@media (max-width: 600px) {
+  .filter-options {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  button {
+    width: 100%;
+  }
+}
