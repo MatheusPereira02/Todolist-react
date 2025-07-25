@@ -1,12 +1,34 @@
-# React + Vite
+# To-Do List React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicativo simples de lista de tarefas desenvolvido em React. Permite adicionar, buscar, filtrar, ordenar e marcar tarefas como concluídas. Utiliza `localStorage` para persistência dos dados.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
 
-## Expanding the ESLint configuration
+- Adicionar novas tarefas com categorias (Trabalho, Saúde, Estudos).
+- Buscar tarefas pelo texto.
+- Filtrar tarefas por status: todas, concluídas, pendentes.
+- Ordenar tarefas em ordem alfabética crescente ou decrescente.
+- Marcar tarefas como concluídas ou pendentes.
+- Remover tarefas da lista.
+- Persistência de dados usando `localStorage`.
+- Interface limpa e responsiva.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tecnologias utilizadas
+
+- React (Hooks: `useState`, `useEffect`)
+- JavaScript ES6+
+- CSS
+- Biblioteca `uuid` para geração de IDs únicos
+
+---
+
+## Como rodar localmente
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
